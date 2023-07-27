@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
 
@@ -15,4 +15,12 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ]
 })
-export class SharedModule { }
+export class SharedModule  implements OnInit{ 
+
+  currentDate = new Date();
+
+  constructor(){  }
+
+  ngOnInit(): void {  }
+
+}
