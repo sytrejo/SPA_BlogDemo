@@ -15,12 +15,6 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ]
 })
-export class SharedModule  implements OnInit{ 
-
-  currentDate = new Date();
-
-  constructor(){  }
-
-  ngOnInit(): void {  }
+export class SharedModule { 
 
 }
