@@ -6,5 +6,5 @@ export const config: ScullyConfig = {
     outDir: './dist/static',
     routes: {
         
-    },
+    }
   };
