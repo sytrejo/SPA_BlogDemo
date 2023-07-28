@@ -18,7 +18,7 @@ import { ScullyLibModule  } from '@scullyio/ng-lib';
     CoreModule,
     SharedModule,
     ContactModule,
-    ScullyLibModule
+    ScullyLibModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

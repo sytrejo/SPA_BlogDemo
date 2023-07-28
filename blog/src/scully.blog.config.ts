@@ -1,10 +1,10 @@
-import { ScullyConfig  } from '@scullyio/scully';
+import { ScullyConfig } from '@scullyio/scully';
 
 export const config: ScullyConfig = {
-    projectRoot: "blog/src/",
-    projectName: "blog",
-    outDir: './dist/static',
-    routes: {
-        
-    }
-  };
+  projectRoot: './src',
+  projectName: 'blog',
+  distFolder: './dist/blog',
+  outDir: './dist/static', 
+  defaultPostRenderers: [],
+  routes: {},
+};
